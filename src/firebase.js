@@ -18,6 +18,8 @@ const firebaseConfig = {
       firebase.initializeApp(firebaseConfig);
   }
 
+
+
   // Initialiser FirebaseUI
   export const instanceFirebaseUI = new firebaseui.auth.AuthUI(firebase.auth());
 
